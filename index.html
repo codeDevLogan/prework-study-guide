@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study</title>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
     <header id="top">
@@ -17,11 +18,19 @@
         <ul>
           <li>HTML Notes:</li>
           <ul>
+            <li>The 'Style' element (Internal CSS): This element, located in the Head element contains the CSS rules for the webpage.</li>
             <li>The 'head' element contains data pertaining to the site.</li>
             <li>The 'body' element contains data and elements shown to the user.</li>
+            <li>The 'link' element allows the developer to link to external webpages.</li>
+            <ul>
+              <li>The 'rel' attribute specifies the relationship between the current document and the linked document resource.</li>
+              <li>The 'herf' attribute specifies the location (URL) of the external resource. This attribute uses a relative path this means the location is derived from the current location.</li>
+            </ul>
+            <li>The 'img' element allows the developer to display an image.</li>
             <li>The 'h' family of elements (h1-h6) are descending size and section notational elements.</li>
             <li>The 'ul' element prints unordered lists.</li>
             <li>The 'li' element pairs to the 'ul' element in that it is the 'list item' li being short hand for it.</li>
+            <li></li>
           </ul>
         </ul>
       </section>
@@ -32,7 +41,26 @@
         <ul>
           <li>CSS Notes</li>
           <ul>
-            <li>"Here's where I would put my CSS notes, IF I HAD ANY!"</li>
+            <li>Inline CSS: Apply Styling to a specific HTML tag and to that element alone.</li>
+            <li>The Style element (Internal CSS): This element, located in the Head element contains the CSS rules for the webpage.</li>
+            <li>External CSS: This Style Sheet is typically prefered, allowing developers to keep their CSS rules in a seperate file.</li>
+            <li>Selectors: Define the elements or attributes to which the rules, or declaractions, will apply.</li>
+            <ul>
+              <li>The * Selector: This selector is a wild card allowing the declatrations made in the declaration block to apply to all elements in the effected webpage.</li>
+            </ul>
+            <li>The Box Model: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">The Box Model </a></li>
+            <li>Declarations ({}): contain two important components: the CSS property we want to apply and the value of the property.</li>
+            <li>A period preceeding an selector designates that selector as a Class selector. So any HTML element with the class proceeding the period will be effected by the rules found within the selector's declaration box.</li>
+            <li>Assigning Colors in CSS: Assigning colors in CSS can be done many ways: semantic references (gray, blue) and hexidecimally with the color's hexidecimal code.</li>
+            <li>CSS Properties:</li>
+            <ul>
+              <li>Color:      Defines the color we want to use on the element.</li>
+              <li>Margin:     Defines the amount of space we want around the outside of an element.</li>
+              <li>Padding:    Defines the amount of space we want inside the element.</li>
+              <li>text-align: Defines the anchor point for the alignment of the text in the affected element.</li>
+              <li>border:     Assigns a border outlining the element.</li>
+              <li>box-shadow: Adds a shadow effect around an element's frame. You can set multiple effects seperated by commas. The shadow is described by x and y offsets relative to the element, blur and spread radius, and color.</li>
+            </ul>
           </ul>
         </ul>
       </section>
